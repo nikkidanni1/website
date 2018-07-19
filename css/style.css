@@ -1,0 +1,12 @@
+header {
+	font: 1.875em Arial, sans-serif;
+	height: 3.333em;
+	background: #f6f9f9;
+	vertical-align: middle;
+	display: flex;
+	align-items: center;
+}
+.logo {
+	width: 5.167em;
+	margin: 0 8.333em;
+}
