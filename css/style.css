@@ -1,12 +1,55 @@
 header {
 	font: 1.875em Arial, sans-serif;
+	color: #2d3950;
 	height: 3.333em;
 	background: #f6f9f9;
-	vertical-align: middle;
 	display: flex;
 	align-items: center;
 }
+hr {
+	border: none;
+	color: #15a4fa;
+	background-color: #15a4fa;
+	height: 2px;
+	margin: 0.625em 0 2.188em;
+	width: 37.500em;
+}
+
 .logo {
 	width: 5.167em;
 	margin: 0 8.333em;
+}
+.banner {
+	height: 50em;
+	background: #fff url(../images/banner.jpg) no-repeat;
+	background-size: 100%;
+	display: flex;
+	align-items: center;
+	overflow: hidden;
+}
+.banner__content {
+	max-width: 37.5em;
+	color: #fff;
+	margin: 0 auto;
+	text-align: center;
+}
+.banner__banner-text {
+	font: 7.5em Arial, sans-serif;
+}
+.banner__description {
+	font: 1.250em Arial, sans-serif;
+}
+.banner__button {
+	background-color: #15a4fa;
+    border: none;
+    color: #fff;
+    padding: 1.438em 1.875em;
+	margin: 3.750em;
+    text-align: center;
+    text-decoration: none;
+	border-radius: 0.313em;
+	font: 1em Arial, sans-serif;
+}
+.banner__button:hover {
+	opacity: 0.8;
 }
