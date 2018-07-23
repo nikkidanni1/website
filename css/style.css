@@ -14,6 +14,16 @@ hr {
 	width: 100%;
 	margin: 10px 0 35px;
 }
+h2 {
+	font: 2.5em Arial, sans-serif;
+	color: #2d3950;
+	text-align: center;
+}
+p {
+	font: 0.938em Arial, sans-serif;
+	color: #999;
+	text-align: center;
+}
 .a-block {
 	display: block;
 	height: 100%;
@@ -77,9 +87,6 @@ hr {
 	overflow: hidden;
 }
 .details__title {
-	font: 2.5em Arial, sans-serif;
-	color: #2d3950;
-	text-align: center;
 	margin: 0 auto 30px;
 }
 .details__text {
@@ -90,7 +97,7 @@ hr {
 	margin: 0 auto 30px;
 }
 .advantages {
-	height: 340px;
+	min-height: 340px;
 	background-color: #fff;
 	display: flex;
 	flex-wrap: wrap;
@@ -108,8 +115,61 @@ hr {
 	font: 1.375em Arial, sans-serif;
 }
 .advantages__description {
-	font: 0.938em Arial, sans-serif;
-	color: #999;
-	text-align: center;
 	margin: 10px 0;
+}
+.showcase {
+	height: 900px;
+	background-color: #F6F9F9;
+}
+.showcase__title {
+	padding: 80px 0 20px;
+}
+.photos{
+	width: 71.25%;
+	margin: 70px auto 115px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.photos__block {
+	height: 260px;
+	width: 360px;
+	background-color: #fff;
+}
+.photos__block:hover {
+	opacity: 0.1;
+}
+.photos__buttons {
+	margin: 15px 0;
+}
+.photos__buttons:hover {
+	background-color: rgba(21, 164, 250, 0.9);
+}
+.photos__ph1 {
+	background: url(../images/ph1.jpg) no-repeat;
+	background-size: 100% 100%;
+}
+.photos__ph2 {
+	background: url(../images/ph2.jpg) no-repeat;
+	background-size: 100% 100%;
+}
+.photos__ph3 {
+	background: url(../images/ph3.jpg) no-repeat;
+	background-size: 100% 100%;
+}
+.photos__ph4 {
+	background: url(../images/ph4.jpg) no-repeat;
+	background-size: 100% 100%;
+}
+.photos__ph5 {
+	background: url(../images/ph5.jpg) no-repeat;
+	background-size: 100% 100%;
+}
+.photos__ph6 {
+	background: url(../images/ph6.jpg) no-repeat;
+	background-size: 100% 100%;
+}
+.contact-form {
+	height: 700px;
+	background-color: #2d3950;
 }
