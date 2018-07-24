@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
 hr {
 	border: none;
 	color: #15a4fa;
@@ -8,13 +9,13 @@ hr {
 }
 
 h2 {
-	font: 2.5em Arial, sans-serif;
+	font: 2.5em Lato, Arial, sans-serif;
 	color: #2d3950;
 	text-align: center;
 }
 
 p {
-	font: 0.938em Arial, sans-serif;
+	font: 0.938em Lato, Arial, sans-serif;
 	color: #999;
 	text-align: center;
 }
@@ -29,7 +30,7 @@ ul {
 }
 *:focus {outline: none;}
 input[type="text"], input[type="email"] {
-	font: 0.938em Arial, sans-serif;
+	font: 0.938em Lato, Arial, sans-serif;
 	width: 100%;
 	height: 60px;
 	padding: 20px;
@@ -38,7 +39,7 @@ input[type="text"], input[type="email"] {
 	background-color: rgba(0, 0, 0, 0);
 }
 textarea {
-	font: 0.938em Arial, sans-serif;
+	font: 0.938em Lato, Arial, sans-serif;
 	padding: 20px;
 	width: 100%;
 	height: 160px;
@@ -57,7 +58,7 @@ textarea:focus, input[type="text"]:focus, input[type="email"]:focus {
 :focus:-ms-input-placeholder      { color: #c5c5c5; }
 
 label {
-	font: 0.938em Arial, sans-serif;
+	font: 0.938em Lato, Arial, sans-serif;
 	color: #fff;
 }
 button {
@@ -80,7 +81,7 @@ button:hover {
 }
 /*-----header style-------*/
 header {
-	font: 1.875em Arial, sans-serif;
+	font: 1.875em Lato, Arial, sans-serif;
 	color: #2d3950;
 	height: 100px;
 	background: #f6f9f9;
@@ -110,11 +111,11 @@ header {
 	margin: 0 auto;
 }
 .banner__banner-text {
-	font: 7.5em Arial, sans-serif;
+	font: 7.5em Lato, Arial, sans-serif;
 	text-align: center;
 }
 .banner__description {
-	font: 1.250em Arial, sans-serif;
+	font: 1.250em Lato, Arial, sans-serif;
 }
 .banner__button {
     padding: 23px 30px;
@@ -143,7 +144,7 @@ header {
 	margin: 0 auto 30px;
 }
 .details__text {
-	font: 1.250em Arial, sans-serif;
+	font: 1.250em Lato, Arial, sans-serif;
 	color: #999;
 	text-align: center;
 	width: 68.75%;
@@ -167,7 +168,7 @@ header {
 .advantages__title {
 	margin: 30px 0 10px;
 	color: #2d3950;
-	font: 1.375em Arial, sans-serif;
+	font: 1.375em Lato, Arial, sans-serif;
 }
 .advantages__description {
 	margin: 10px 0;
@@ -231,7 +232,7 @@ header {
 
 /*----------contact-form---------*/
 .contact-form {
-	font: 1.375em Arial, sans-serif;
+	font: 1.375em Lato, Arial, sans-serif;
 	min-height: 700px;
 	background: #2d3950 url(../images/back-contact-form.jpg) no-repeat;
 	background-size: cover;
@@ -270,6 +271,24 @@ footer {
 	width: 11%;
 }
 .networks {
-	width: 11%;
-	background-color: #000;
+	display: flex;
+	width: 175px;
+	height: 40px;
+	justify-content: space-between;
+}
+.networks__a {
+	height: 40px;
+	width: 40px;
+}
+.networks__facebook {
+	background: url(../images/networks.png) no-repeat scroll 0 0;
+}
+.networks__twitter {
+	background: url(../images/networks.png) no-repeat scroll -45px 0;
+}
+.networks__google {
+	background: url(../images/networks.png) no-repeat scroll -90px 0;
+}
+.networks__instagram {
+	background: url(../images/networks.png) no-repeat scroll -135px 0;
 }
